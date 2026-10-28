@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+.env.local
+scripts/.build
+e2e/fixtures
+*.log
+.DS_Store

@@ -1,0 +1,14 @@
+{
+  "name": "PIXEL PLAY",
+  "short_name": "PIXEL PLAY",
+  "description": "Jeux vidéo, consoles PS4 / PS5 et high-tech à Douala",
+  "lang": "fr",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#6C3BEA",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

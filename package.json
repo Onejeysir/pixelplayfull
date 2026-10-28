@@ -1,0 +1,39 @@
+{
+  "name": "pixel-play",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Site e-commerce PIXEL PLAY — jeux vidéo, consoles PS4/PS5, rachat d'appareils (Douala, Cameroun)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "logo": "python3 scripts/build-logo.py design/PIXEL_PLAY_LOGO_.jpeg && node scripts/trace-logo.mjs",
+    "e2e:fixtures": "python3 e2e/make_fixtures.py",
+    "e2e:fonctionnel": "python3 e2e/fonctionnel.py",
+    "e2e:responsive": "python3 e2e/responsive.py",
+    "e2e:a11y": "python3 e2e/accessibilite.py"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource/barlow-condensed": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "axe-core": "^4.14.0",
+    "jsdom": "^25.0.1",
+    "potrace": "^2.1.8",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.9"
+  }
+}

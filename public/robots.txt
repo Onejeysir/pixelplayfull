@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Ajoutez ici l'URL du sitemap une fois le domaine définitif connu.
